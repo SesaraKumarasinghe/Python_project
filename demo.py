@@ -15,5 +15,6 @@ def read_text_file(filename):
 
 if __name__ == "__main__":
     # Ask the user for the file name
+    print("Hello World")
     file_path = input("Enter the path to the text file: ")
     read_text_file(file_path)
